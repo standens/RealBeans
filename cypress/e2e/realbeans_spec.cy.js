@@ -28,7 +28,7 @@ describe('RealBeans Frontend Tests', () => {
 });
 
 
-
+  // Toon Producten
   it('Toont producten op de homepage', () => {
     cy.contains('Roasted');
     cy.contains('Blended');
