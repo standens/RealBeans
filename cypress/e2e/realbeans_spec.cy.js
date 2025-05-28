@@ -27,8 +27,6 @@ describe('RealBeans Frontend Tests', () => {
   cy.contains('Price, low to high', { matchCase: false }).click({ force: true });
 });
 
-
-  // Toon Producten
   it('Toont producten op de homepage', () => {
     cy.contains('Roasted');
     cy.contains('Blended');
